@@ -97,40 +97,40 @@
 }
 
 .dark {
-  /* Dark mode: Deep Navy Canvas, DC Green */
-  --background: #05192d;
-  --foreground: #ffffff;
-  --card: #0a2540;
-  --card-foreground: #ffffff;
-  --popover: #0a2540;
-  --popover-foreground: #ffffff;
-  --primary: #03ef62;
-  --primary-foreground: #05192d;
-  --secondary: #1a365d;
-  --secondary-foreground: #ffffff;
-  --muted: #1a365d;
-  --muted-foreground: #94a3b8;
-  --accent: #1a365d;
-  --accent-foreground: #ffffff;
+  /* Dark mode: rich layered blue-slate — clear card/bg contrast, no neon */
+  --background: #0c1220;
+  --foreground: #e8edf5;
+  --card: #141e2e;
+  --card-foreground: #e8edf5;
+  --popover: #1a2840;
+  --popover-foreground: #e8edf5;
+  --primary: #4f8ef7;
+  --primary-foreground: #ffffff;
+  --secondary: #1e3a5f;
+  --secondary-foreground: #c8d8f0;
+  --muted: #182638;
+  --muted-foreground: #8fa3c0;
+  --accent: #1e3050;
+  --accent-foreground: #c8d8f0;
   --destructive: #ef4444;
-  --border: #1a365d;
-  --input: #1a365d;
-  --ring: #03ef62;
+  --border: #1e3050;
+  --input: #182638;
+  --ring: #4f8ef7;
 
-  --chart-1: #03ef62;
-  --chart-2: #1ec8ff;
-  --chart-3: #ffaa00;
-  --chart-4: #345eeb;
-  --chart-5: #ffffff;
+  --chart-1: #4f8ef7;
+  --chart-2: #10b981;
+  --chart-3: #f59e0b;
+  --chart-4: #8b5cf6;
+  --chart-5: #ec4899;
 
-  --sidebar: #05192d;
-  --sidebar-foreground: #ffffff;
-  --sidebar-primary: #03ef62;
-  --sidebar-primary-foreground: #05192d;
-  --sidebar-accent: #1a365d;
-  --sidebar-accent-foreground: #ffffff;
-  --sidebar-border: #1a365d;
-  --sidebar-ring: #03ef62;
+  --sidebar: #0c1220;
+  --sidebar-foreground: #e8edf5;
+  --sidebar-primary: #4f8ef7;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #1e3050;
+  --sidebar-accent-foreground: #c8d8f0;
+  --sidebar-border: #1e3050;
+  --sidebar-ring: #4f8ef7;
 }
 
 /* ── Animations ── */
@@ -222,9 +222,9 @@
   }
 
   .dark .glass {
-    background: oklch(0.16 0.02 265 / 60%);
-    backdrop-filter: blur(24px) saturate(1.8);
-    border: 1px solid oklch(1 0 0 / 8%);
+    background: oklch(0.13 0.025 240 / 65%);
+    backdrop-filter: blur(24px) saturate(1.6);
+    border: 1px solid oklch(1 0 0 / 7%);
   }
 
   .glass-card {
@@ -235,9 +235,9 @@
   }
 
   .dark .glass-card {
-    background: linear-gradient(135deg, oklch(0.2 0.02 265 / 70%), oklch(0.14 0.015 265 / 50%));
-    border: 1px solid oklch(1 1 1 / 8%);
-    box-shadow: 0 8px 32px oklch(0 0 0 / 30%);
+    background: linear-gradient(135deg, oklch(0.17 0.025 240 / 75%), oklch(0.13 0.02 240 / 55%));
+    border: 1px solid oklch(1 0 0 / 7%);
+    box-shadow: 0 8px 32px oklch(0 0 0 / 35%), 0 1px 0 oklch(1 0 0 / 5%) inset;
   }
 
 

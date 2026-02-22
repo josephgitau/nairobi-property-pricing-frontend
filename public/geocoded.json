@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "gatundu-rd-kileleshwa-kileleshwa-nairobi",
+    "name": "gatundu rd kileleshwa, kileleshwa, nairobi",
+    "lat": -1.278297,
+    "lon": 36.784821,
+    "sale_median": 9000000,
+    "rent_median": null
+  },
+  {
+    "slug": "kiambu-road-nairobi",
+    "name": "kiambu road, nairobi",
+    "lat": -1.221589,
+    "lon": 36.835937,
+    "sale_median": 30000000,
+    "rent_median": 250000
+  },
+  {
+    "slug": "kileleshwa-nairobi",
+    "name": "kileleshwa, nairobi",
+    "lat": -1.276734,
+    "lon": 36.787901,
+    "sale_median": 13250000,
+    "rent_median": 150000
+  },
+  {
+    "slug": "kileleshwa-nairobi-kileleshwa-nairobi",
+    "name": "kileleshwa nairobi, kileleshwa, nairobi",
+    "lat": -1.266259,
+    "lon": 36.779407,
+    "sale_median": 7150000,
+    "rent_median": null
+  },
+  {
+    "slug": "kilimani-estate-kilimani-kilimani-nairobi",
+    "name": "kilimani estate kilimani, kilimani, nairobi",
+    "lat": -1.299172,
+    "lon": 36.783962,
+    "sale_median": 8200000,
+    "rent_median": 170000
+  },
+  {
+    "slug": "kilimani-nairobi",
+    "name": "kilimani, nairobi",
+    "lat": -1.296015,
+    "lon": 36.781779,
+    "sale_median": 13000000,
+    "rent_median": 150000
+  },
+  {
+    "slug": "kirichwa-rd-kilimani-kilimani-nairobi",
+    "name": "kirichwa rd kilimani, kilimani, nairobi",
+    "lat": -1.299055,
+    "lon": 36.781887,
+    "sale_median": 14700000,
+    "rent_median": null
+  },
+  {
+    "slug": "kitengela-nairobi",
+    "name": "kitengela, nairobi",
+    "lat": -1.323788,
+    "lon": 36.786201,
+    "sale_median": 8000000,
+    "rent_median": null
+  },
+  {
+    "slug": "kitisuru-nairobi",
+    "name": "kitisuru, nairobi",
+    "lat": -1.240379,
+    "lon": 36.77103,
+    "sale_median": null,
+    "rent_median": 320000
+  },
+  {
+    "slug": "lavington-nairobi",
+    "name": "lavington, nairobi",
+    "lat": -1.274068,
+    "lon": 36.776227,
+    "sale_median": 13500000,
+    "rent_median": 230000
+  },
+  {
+    "slug": "lower-kabete-nairobi",
+    "name": "lower kabete, nairobi",
+    "lat": -1.240303,
+    "lon": 36.752352,
+    "sale_median": null,
+    "rent_median": 650000
+  },
+  {
+    "slug": "mogotio-rd-23-westlands-nairobi",
+    "name": "mogotio rd 23, westlands, nairobi",
+    "lat": -1.266081,
+    "lon": 36.809108,
+    "sale_median": 6800000,
+    "rent_median": null
+  },
+  {
+    "slug": "mogotio-rd-nairobi-westlands-nairobi",
+    "name": "mogotio rd nairobi, westlands, nairobi",
+    "lat": -1.266081,
+    "lon": 36.809108,
+    "sale_median": 10300000,
+    "rent_median": null
+  },
+  {
+    "slug": "muthithi-rd-nairobi-westlands-nairobi",
+    "name": "muthithi rd nairobi, westlands, nairobi",
+    "lat": -1.267542,
+    "lon": 36.808103,
+    "sale_median": 10757000,
+    "rent_median": null
+  },
+  {
+    "slug": "ongata-rongai-nairobi",
+    "name": "ongata rongai, nairobi",
+    "lat": -1.390626,
+    "lon": 36.768421,
+    "sale_median": 38000000,
+    "rent_median": null
+  },
+  {
+    "slug": "parklands-nairobi",
+    "name": "parklands, nairobi",
+    "lat": -1.263062,
+    "lon": 36.810629,
+    "sale_median": 25000000,
+    "rent_median": 150000
+  },
+  {
+    "slug": "pqqjm66-muthangari-dr-westlands-nairobi",
+    "name": "pqqj+m66 muthangari dr, westlands, nairobi",
+    "lat": -1.2621,
+    "lon": 36.7811,
+    "sale_median": 24400000,
+    "rent_median": null
+  },
+  {
+    "slug": "rhapta-road-nairobi-westlands-nairobi",
+    "name": "rhapta road nairobi, westlands, nairobi",
+    "lat": -1.266276,
+    "lon": 36.80015,
+    "sale_median": 13000000,
+    "rent_median": 150000
+  },
+  {
+    "slug": "rhapta-terraces-rhapta-road-westlands-nairobi",
+    "name": "rhapta terraces rhapta road, westlands, nairobi",
+    "lat": -1.246528,
+    "lon": 36.786076,
+    "sale_median": 13000000,
+    "rent_median": null
+  },
+  {
+    "slug": "riara-rd-maziwa-kilimani-nairobi",
+    "name": "riara rd maziwa, kilimani, nairobi",
+    "lat": -1.296191,
+    "lon": 36.755476,
+    "sale_median": 15300000,
+    "rent_median": null
+  },
+  {
+    "slug": "ring-rd-parklands-nairobi-westlands-nairobi",
+    "name": "ring rd parklands nairobi, westlands, nairobi",
+    "lat": -1.261478,
+    "lon": 36.80396,
+    "sale_median": 13800000,
+    "rent_median": null
+  },
+  {
+    "slug": "ring-road-kileleshwa-nairobi-kileleshwa-nairobi",
+    "name": "ring road kileleshwa nairobi, kileleshwa, nairobi",
+    "lat": -1.272882,
+    "lon": 36.801366,
+    "sale_median": 7150000,
+    "rent_median": null
+  },
+  {
+    "slug": "riverside-dr-nairobi-riverside-nairobi",
+    "name": "riverside dr nairobi, riverside, nairobi",
+    "lat": -1.269119,
+    "lon": 36.791707,
+    "sale_median": 14600000,
+    "rent_median": null
+  },
+  {
+    "slug": "riverside-nairobi",
+    "name": "riverside, nairobi",
+    "lat": -1.312042,
+    "lon": 36.867618,
+    "sale_median": 27000000,
+    "rent_median": 200000
+  },
+  {
+    "slug": "runda-kitisuru-runda-nairobi",
+    "name": "runda kitisuru, runda, nairobi",
+    "lat": -1.218212,
+    "lon": 36.808989,
+    "sale_median": null,
+    "rent_median": 442000
+  },
+  {
+    "slug": "runda-nairobi",
+    "name": "runda, nairobi",
+    "lat": -1.218212,
+    "lon": 36.808989,
+    "sale_median": null,
+    "rent_median": 370000
+  },
+  {
+    "slug": "spring-valley-nairobi",
+    "name": "spring valley, nairobi",
+    "lat": -1.257563,
+    "lon": 36.806788,
+    "sale_median": null,
+    "rent_median": 330000
+  },
+  {
+    "slug": "westlands-nairobi",
+    "name": "westlands, nairobi",
+    "lat": -1.246528,
+    "lon": 36.786076,
+    "sale_median": 20000000,
+    "rent_median": 200000
+  },
+  {
+    "slug": "westlands-rd-nairobi-westlands-nairobi",
+    "name": "westlands rd nairobi, westlands, nairobi",
+    "lat": -1.267217,
+    "lon": 36.806156,
+    "sale_median": 7000000,
+    "rent_median": null
+  },
+  {
+    "slug": "westlands-westlands-nairobi",
+    "name": "westlands, westlands, nairobi",
+    "lat": -1.264756,
+    "lon": 36.801842,
+    "sale_median": 24610000,
+    "rent_median": null
+  }
+]
