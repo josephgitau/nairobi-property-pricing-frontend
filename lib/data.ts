@@ -18,7 +18,7 @@ export async function getLatestSummaries(
   listingType: 'Sale' | 'Rent' | 'Both' = 'Both'
 ): Promise<LocationSummary[]> {
   // Use a single query with subquery to get latest date in one round trip
-  const { data } = await supabase
+  const { data: _data } = await supabase
     .from('location_summary')
     .select('*')
     .eq('listing_type', listingType)
@@ -26,11 +26,12 @@ export async function getLatestSummaries(
     .order('affordability_rank', { ascending: true })
     .limit(200) // Max 200 locations — more than enough for any city
 
+  const data = _data as LocationSummary[] | null
   if (!data || data.length === 0) return []
 
   // Filter to only the most recent date (first row determines the date)
   const latestDate = data[0].summary_date
-  return data.filter((row) => row.summary_date === latestDate) as LocationSummary[]
+  return data.filter((row) => row.summary_date === latestDate)
 }
 
 /** Get all summaries for a specific location (for trend chart) */
