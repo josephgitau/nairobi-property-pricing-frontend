@@ -68,7 +68,12 @@ export interface Database {
       }
     }
     Views: Record<string, never>
-    Functions: Record<string, never>
+    Functions: {
+      count_distinct_sources: {
+        Args: Record<string, never>
+        Returns: number
+      }
+    }
     Enums: Record<string, never>
   }
 }
