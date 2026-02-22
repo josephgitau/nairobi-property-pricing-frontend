@@ -29,13 +29,14 @@ export default async function NeighborhoodPage({ params }: Props) {
   const { slug } = await params
 
   // Efficient: get distinct locations from the latest summary date only
-  const { data: latestDateRow } = await supabase
+  const { data: _latestDateRow } = await supabase
     .from('location_summary')
     .select('summary_date')
     .order('summary_date', { ascending: false })
     .limit(1)
     .maybeSingle()
 
+  const latestDateRow = _latestDateRow as { summary_date: string } | null
   if (!latestDateRow) return notFound()
 
   const { data: allLocRows } = await supabase
