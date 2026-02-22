@@ -3,14 +3,16 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState, useEffect, useCallback } from 'react'
-import { Activity, MapPin, BarChart3, Tag, Calculator, Home, Menu, X, Scale } from 'lucide-react'
+import { Activity, MapPin, BarChart3, Tag, Calculator, Home, Menu, X, Scale, BrainCircuit, LineChart } from 'lucide-react'
 import { ThemeToggle } from './ThemeToggle'
 
 const links = [
   { href: '/', label: 'Dashboard', icon: Home },
   { href: '/map', label: 'Map', icon: MapPin },
   { href: '/neighborhoods', label: 'Areas', icon: BarChart3 },
+  { href: '/analysis', label: 'Analysis', icon: LineChart },
   { href: '/deals', label: 'Deals', icon: Tag },
+  { href: '/predict', label: 'Predict', icon: BrainCircuit },
   { href: '/calculator', label: 'Budget', icon: Calculator },
   { href: '/compare', label: 'Compare', icon: Scale },
 ]
@@ -50,7 +52,7 @@ export default function NavBar() {
           </Link>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-1.5">
+          <div className="hidden md:flex items-center gap-0.5">
             {links.map(({ href, label, icon: Icon }) => {
               const active = pathname === href || (href !== '/' && pathname.startsWith(href))
               return (
@@ -58,7 +60,7 @@ export default function NavBar() {
                   key={href}
                   href={href}
                   aria-current={active ? 'page' : undefined}
-                  className={`relative flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-sm font-semibold transition-all duration-300 ${active
+                  className={`relative flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-semibold transition-all duration-300 ${active
                     ? 'text-indigo-600 dark:text-indigo-400 bg-indigo-500/10'
                     : 'text-muted-foreground hover:text-foreground hover:bg-accent/50'
                     }`}

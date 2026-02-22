@@ -1,0 +1,1140 @@
+{
+  "meta": {
+    "trained_at": "2026-02-22T21:59:39.360872",
+    "training_rows": 825,
+    "r2": 0.9396,
+    "rmse_log": 0.4956,
+    "approx_rmse_multiplier": 1.64,
+    "locations_in_model": 43
+  },
+  "regression": {
+    "intercept": 15.316732,
+    "coef_bedrooms": 0.312855,
+    "coef_rent": -4.300759,
+    "location_premiums": {
+      "gatundu-rd-kileleshwa-kileleshwa-nairobi": 0.093624,
+      "general-mathenge-drive-spring-valley-westlands-nairobi": 0.341311,
+      "gigiri-nairobi": 0.411974,
+      "karen-karen-karen-nairobi": 0.346334,
+      "karen-nairobi": 0.2276,
+      "kiambu-road-nairobi": 0.458151,
+      "kileleshwa-nairobi": 0.16822,
+      "kileleshwa-nairobi-kileleshwa-nairobi": 0.243533,
+      "kilimani-estate-kilimani-kilimani-nairobi": -0.235878,
+      "kilimani-nairobi": 0.206677,
+      "kirichwa-rd-kilimani-kilimani-nairobi": 0.584685,
+      "kitengela-nairobi": -0.338314,
+      "kitisuru-nairobi": 0.332734,
+      "kyuna-nairobi": 0.418906,
+      "lavington-nairobi": 0.257836,
+      "loresho-nairobi": 0.446091,
+      "lower-kabete-nairobi": 0.191567,
+      "mogotio-rd-23-westlands-nairobi": 0.102846,
+      "mogotio-rd-nairobi-westlands-nairobi": 0.254323,
+      "muthaiga-nairobi": 0.916805,
+      "muthithi-rd-nairobi-westlands-nairobi": 0.415651,
+      "ndege-rd-nairobi-karen-nairobi": 0.785629,
+      "nyari-kitisuru-nyari-nairobi": 0.428654,
+      "nyari-nairobi": 0.559516,
+      "ongata-rongai-nairobi": 0.417324,
+      "parklands-nairobi": 0.230064,
+      "pqqjm66-muthangari-dr-westlands-nairobi": 0.754796,
+      "raphta-rd-nairobi-westlands-nairobi": 0.257073,
+      "rhapta-road-nairobi-westlands-nairobi": 0.340168,
+      "rhapta-terraces-rhapta-road-westlands-nairobi": 0.487787,
+      "riara-rd-maziwa-kilimani-nairobi": 0.404164,
+      "ring-rd-parklands-nairobi-westlands-nairobi": 0.423285,
+      "ring-road-kileleshwa-nairobi-kileleshwa-nairobi": -0.12406,
+      "riverside-dr-nairobi-riverside-nairobi": 0.535076,
+      "riverside-nairobi": 0.565778,
+      "roselyn-nairobi": 0.700757,
+      "runda-kitisuru-runda-nairobi": 0.692688,
+      "runda-nairobi": 0.487907,
+      "spring-valley-nairobi": 0.506926,
+      "westlands-nairobi": 0.288473,
+      "westlands-rd-nairobi-westlands-nairobi": 0.131833,
+      "westlands-westlands-nairobi": 0.399296,
+      "windy-ridge-karen-karen-nairobi": 0.198923
+    }
+  },
+  "location_stats": {
+    "gatundu-rd-kileleshwa-kileleshwa-nairobi": {
+      "name": "gatundu rd kileleshwa, kileleshwa, nairobi",
+      "slug": "gatundu-rd-kileleshwa-kileleshwa-nairobi",
+      "sale": {
+        "count": 6,
+        "median": 9000000,
+        "q25": 7500000,
+        "q75": 11625000,
+        "min": 6900000,
+        "max": 12500000
+      },
+      "rent": null,
+      "all": {
+        "count": 6,
+        "median": 9000000
+      }
+    },
+    "general-mathenge-drive-spring-valley-westlands-nairobi": {
+      "name": "general mathenge drive spring valley, westlands, nairobi",
+      "slug": "general-mathenge-drive-spring-valley-westlands-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 8,
+        "median": 225000,
+        "q25": 200000,
+        "q75": 250000,
+        "min": 150000,
+        "max": 280000
+      },
+      "all": {
+        "count": 8,
+        "median": 225000
+      }
+    },
+    "gigiri-nairobi": {
+      "name": "gigiri, nairobi",
+      "slug": "gigiri-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 8,
+        "median": 485000,
+        "q25": 425000,
+        "q75": 545000,
+        "min": 350000,
+        "max": 620000
+      },
+      "all": {
+        "count": 8,
+        "median": 485000
+      }
+    },
+    "karen-karen-karen-nairobi": {
+      "name": "karen karen, karen, nairobi",
+      "slug": "karen-karen-karen-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 7,
+        "median": 400000,
+        "q25": 250000,
+        "q75": 480000,
+        "min": 200000,
+        "max": 500000
+      },
+      "all": {
+        "count": 7,
+        "median": 400000
+      }
+    },
+    "karen-nairobi": {
+      "name": "karen, nairobi",
+      "slug": "karen-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 16,
+        "median": 325000,
+        "q25": 300000,
+        "q75": 450000,
+        "min": 200000,
+        "max": 500000
+      },
+      "all": {
+        "count": 16,
+        "median": 325000
+      }
+    },
+    "kiambu-road-nairobi": {
+      "name": "kiambu road, nairobi",
+      "slug": "kiambu-road-nairobi",
+      "sale": {
+        "count": 7,
+        "median": 30000000,
+        "q25": 27500000,
+        "q75": 35000000,
+        "min": 25000000,
+        "max": 35000000
+      },
+      "rent": {
+        "count": 8,
+        "median": 250000,
+        "q25": 250000,
+        "q75": 287500,
+        "min": 250000,
+        "max": 400000
+      },
+      "all": {
+        "count": 15,
+        "median": 400000
+      }
+    },
+    "kileleshwa-nairobi": {
+      "name": "kileleshwa, nairobi",
+      "slug": "kileleshwa-nairobi",
+      "sale": {
+        "count": 56,
+        "median": 13250000,
+        "q25": 7375000,
+        "q75": 21250000,
+        "min": 3000000,
+        "max": 25500000
+      },
+      "rent": {
+        "count": 22,
+        "median": 150000,
+        "q25": 130000,
+        "q75": 272500,
+        "min": 100000,
+        "max": 350000
+      },
+      "all": {
+        "count": 78,
+        "median": 8500000
+      }
+    },
+    "kileleshwa-nairobi-kileleshwa-nairobi": {
+      "name": "kileleshwa nairobi, kileleshwa, nairobi",
+      "slug": "kileleshwa-nairobi-kileleshwa-nairobi",
+      "sale": {
+        "count": 11,
+        "median": 7150000,
+        "q25": 5110000,
+        "q75": 8180000,
+        "min": 5110000,
+        "max": 9210000
+      },
+      "rent": null,
+      "all": {
+        "count": 13,
+        "median": 5110000
+      }
+    },
+    "kilimani-estate-kilimani-kilimani-nairobi": {
+      "name": "kilimani estate kilimani, kilimani, nairobi",
+      "slug": "kilimani-estate-kilimani-kilimani-nairobi",
+      "sale": {
+        "count": 7,
+        "median": 8200000,
+        "q25": 5500000,
+        "q75": 9500000,
+        "min": 5500000,
+        "max": 10800000
+      },
+      "rent": {
+        "count": 8,
+        "median": 170000,
+        "q25": 85500,
+        "q75": 180000,
+        "min": 12000,
+        "max": 230000
+      },
+      "all": {
+        "count": 15,
+        "median": 230000
+      }
+    },
+    "kilimani-nairobi": {
+      "name": "kilimani, nairobi",
+      "slug": "kilimani-nairobi",
+      "sale": {
+        "count": 54,
+        "median": 13000000,
+        "q25": 9550000,
+        "q75": 18000000,
+        "min": 3000000,
+        "max": 28000000
+      },
+      "rent": {
+        "count": 43,
+        "median": 150000,
+        "q25": 135000,
+        "q75": 215000,
+        "min": 90000,
+        "max": 315800
+      },
+      "all": {
+        "count": 97,
+        "median": 4500000
+      }
+    },
+    "kirichwa-rd-kilimani-kilimani-nairobi": {
+      "name": "kirichwa rd kilimani, kilimani, nairobi",
+      "slug": "kirichwa-rd-kilimani-kilimani-nairobi",
+      "sale": {
+        "count": 5,
+        "median": 14700000,
+        "q25": 14700000,
+        "q75": 15600000,
+        "min": 14700000,
+        "max": 15600000
+      },
+      "rent": null,
+      "all": {
+        "count": 5,
+        "median": 14700000
+      }
+    },
+    "kitengela-nairobi": {
+      "name": "kitengela, nairobi",
+      "slug": "kitengela-nairobi",
+      "sale": {
+        "count": 13,
+        "median": 8000000,
+        "q25": 7500000,
+        "q75": 15000000,
+        "min": 5800000,
+        "max": 17000000
+      },
+      "rent": null,
+      "all": {
+        "count": 13,
+        "median": 8000000
+      }
+    },
+    "kitisuru-nairobi": {
+      "name": "kitisuru, nairobi",
+      "slug": "kitisuru-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 21,
+        "median": 320000,
+        "q25": 250000,
+        "q75": 450000,
+        "min": 90000,
+        "max": 710700
+      },
+      "all": {
+        "count": 23,
+        "median": 370000
+      }
+    },
+    "kyuna-nairobi": {
+      "name": "kyuna, nairobi",
+      "slug": "kyuna-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 6,
+        "median": 300000,
+        "q25": 285000,
+        "q75": 487500,
+        "min": 280000,
+        "max": 550000
+      },
+      "all": {
+        "count": 6,
+        "median": 300000
+      }
+    },
+    "lavington-nairobi": {
+      "name": "lavington, nairobi",
+      "slug": "lavington-nairobi",
+      "sale": {
+        "count": 35,
+        "median": 13500000,
+        "q25": 9500000,
+        "q75": 25500000,
+        "min": 5800000,
+        "max": 30000000
+      },
+      "rent": {
+        "count": 52,
+        "median": 230000,
+        "q25": 145000,
+        "q75": 350000,
+        "min": 110000,
+        "max": 34000000
+      },
+      "all": {
+        "count": 87,
+        "median": 400000
+      }
+    },
+    "loresho-nairobi": {
+      "name": "loresho, nairobi",
+      "slug": "loresho-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 5,
+        "median": 549000,
+        "q25": 250000,
+        "q75": 549000,
+        "min": 250000,
+        "max": 549000
+      },
+      "all": {
+        "count": 5,
+        "median": 549000
+      }
+    },
+    "lower-kabete-nairobi": {
+      "name": "lower kabete, nairobi",
+      "slug": "lower-kabete-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 4,
+        "median": 650000,
+        "q25": 300000,
+        "q75": 1000000,
+        "min": 300000,
+        "max": 1000000
+      },
+      "all": {
+        "count": 6,
+        "median": 1000000
+      }
+    },
+    "mogotio-rd-23-westlands-nairobi": {
+      "name": "mogotio rd 23, westlands, nairobi",
+      "slug": "mogotio-rd-23-westlands-nairobi",
+      "sale": {
+        "count": 11,
+        "median": 6800000,
+        "q25": 6800000,
+        "q75": 6800000,
+        "min": 6800000,
+        "max": 6800000
+      },
+      "rent": null,
+      "all": {
+        "count": 11,
+        "median": 6800000
+      }
+    },
+    "mogotio-rd-nairobi-westlands-nairobi": {
+      "name": "mogotio rd nairobi, westlands, nairobi",
+      "slug": "mogotio-rd-nairobi-westlands-nairobi",
+      "sale": {
+        "count": 6,
+        "median": 10300000,
+        "q25": 6550000,
+        "q75": 14050000,
+        "min": 5800000,
+        "max": 22680000
+      },
+      "rent": null,
+      "all": {
+        "count": 6,
+        "median": 10300000
+      }
+    },
+    "muthaiga-nairobi": {
+      "name": "muthaiga, nairobi",
+      "slug": "muthaiga-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 10,
+        "median": 580000,
+        "q25": 490000,
+        "q75": 700000,
+        "min": 380000,
+        "max": 770000
+      },
+      "all": {
+        "count": 10,
+        "median": 580000
+      }
+    },
+    "muthithi-rd-nairobi-westlands-nairobi": {
+      "name": "muthithi rd nairobi, westlands, nairobi",
+      "slug": "muthithi-rd-nairobi-westlands-nairobi",
+      "sale": {
+        "count": 11,
+        "median": 10757000,
+        "q25": 8628500,
+        "q75": 20862000,
+        "min": 6500000,
+        "max": 21714000
+      },
+      "rent": null,
+      "all": {
+        "count": 11,
+        "median": 10757000
+      }
+    },
+    "ndege-rd-nairobi-karen-nairobi": {
+      "name": "ndege rd nairobi, karen, nairobi",
+      "slug": "ndege-rd-nairobi-karen-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 6,
+        "median": 450000,
+        "q25": 450000,
+        "q75": 525000,
+        "min": 200000,
+        "max": 550000
+      },
+      "all": {
+        "count": 6,
+        "median": 450000
+      }
+    },
+    "nyari-kitisuru-nyari-nairobi": {
+      "name": "nyari kitisuru, nyari, nairobi",
+      "slug": "nyari-kitisuru-nyari-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 5,
+        "median": 400000,
+        "q25": 400000,
+        "q75": 450000,
+        "min": 400000,
+        "max": 450000
+      },
+      "all": {
+        "count": 5,
+        "median": 400000
+      }
+    },
+    "nyari-nairobi": {
+      "name": "nyari, nairobi",
+      "slug": "nyari-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 8,
+        "median": 500000,
+        "q25": 420000,
+        "q75": 562500,
+        "min": 330000,
+        "max": 600000
+      },
+      "all": {
+        "count": 8,
+        "median": 500000
+      }
+    },
+    "ongata-rongai-nairobi": {
+      "name": "ongata rongai, nairobi",
+      "slug": "ongata-rongai-nairobi",
+      "sale": {
+        "count": 5,
+        "median": 38000000,
+        "q25": 5400000,
+        "q75": 38000000,
+        "min": 5400000,
+        "max": 38000000
+      },
+      "rent": null,
+      "all": {
+        "count": 5,
+        "median": 38000000
+      }
+    },
+    "parklands-nairobi": {
+      "name": "parklands, nairobi",
+      "slug": "parklands-nairobi",
+      "sale": {
+        "count": 5,
+        "median": 25000000,
+        "q25": 6900000,
+        "q75": 25000000,
+        "min": 6900000,
+        "max": 25000000
+      },
+      "rent": {
+        "count": 15,
+        "median": 150000,
+        "q25": 127500,
+        "q75": 250000,
+        "min": 120000,
+        "max": 290000
+      },
+      "all": {
+        "count": 20,
+        "median": 250000
+      }
+    },
+    "pqqjm66-muthangari-dr-westlands-nairobi": {
+      "name": "pqqj+m66 muthangari dr, westlands, nairobi",
+      "slug": "pqqjm66-muthangari-dr-westlands-nairobi",
+      "sale": {
+        "count": 8,
+        "median": 24400000,
+        "q25": 24400000,
+        "q75": 24400000,
+        "min": 24400000,
+        "max": 24400000
+      },
+      "rent": null,
+      "all": {
+        "count": 8,
+        "median": 24400000
+      }
+    },
+    "raphta-rd-nairobi-westlands-nairobi": {
+      "name": "raphta rd nairobi, westlands, nairobi",
+      "slug": "raphta-rd-nairobi-westlands-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 7,
+        "median": 265000,
+        "q25": 225000,
+        "q75": 265000,
+        "min": 225000,
+        "max": 300000
+      },
+      "all": {
+        "count": 7,
+        "median": 265000
+      }
+    },
+    "rhapta-road-nairobi-westlands-nairobi": {
+      "name": "rhapta road nairobi, westlands, nairobi",
+      "slug": "rhapta-road-nairobi-westlands-nairobi",
+      "sale": {
+        "count": 18,
+        "median": 13000000,
+        "q25": 12300000,
+        "q75": 15100000,
+        "min": 6200000,
+        "max": 17500000
+      },
+      "rent": {
+        "count": 8,
+        "median": 150000,
+        "q25": 140000,
+        "q75": 180000,
+        "min": 70000,
+        "max": 200000
+      },
+      "all": {
+        "count": 26,
+        "median": 12300000
+      }
+    },
+    "rhapta-terraces-rhapta-road-westlands-nairobi": {
+      "name": "rhapta terraces rhapta road, westlands, nairobi",
+      "slug": "rhapta-terraces-rhapta-road-westlands-nairobi",
+      "sale": {
+        "count": 19,
+        "median": 13000000,
+        "q25": 9000000,
+        "q75": 15150000,
+        "min": 8100000,
+        "max": 22550000
+      },
+      "rent": null,
+      "all": {
+        "count": 20,
+        "median": 12250000
+      }
+    },
+    "riara-rd-maziwa-kilimani-nairobi": {
+      "name": "riara rd maziwa, kilimani, nairobi",
+      "slug": "riara-rd-maziwa-kilimani-nairobi",
+      "sale": {
+        "count": 10,
+        "median": 15300000,
+        "q25": 13300000,
+        "q75": 17800000,
+        "min": 9700000,
+        "max": 28200000
+      },
+      "rent": null,
+      "all": {
+        "count": 10,
+        "median": 15300000
+      }
+    },
+    "ring-rd-parklands-nairobi-westlands-nairobi": {
+      "name": "ring rd parklands nairobi, westlands, nairobi",
+      "slug": "ring-rd-parklands-nairobi-westlands-nairobi",
+      "sale": {
+        "count": 7,
+        "median": 13800000,
+        "q25": 9350000,
+        "q75": 18800000,
+        "min": 6200000,
+        "max": 21800000
+      },
+      "rent": null,
+      "all": {
+        "count": 7,
+        "median": 13800000
+      }
+    },
+    "ring-road-kileleshwa-nairobi-kileleshwa-nairobi": {
+      "name": "ring road kileleshwa nairobi, kileleshwa, nairobi",
+      "slug": "ring-road-kileleshwa-nairobi-kileleshwa-nairobi",
+      "sale": {
+        "count": 8,
+        "median": 7150000,
+        "q25": 5110000,
+        "q75": 7150000,
+        "min": 5110000,
+        "max": 7150000
+      },
+      "rent": null,
+      "all": {
+        "count": 10,
+        "median": 6130000
+      }
+    },
+    "riverside-dr-nairobi-riverside-nairobi": {
+      "name": "riverside dr nairobi, riverside, nairobi",
+      "slug": "riverside-dr-nairobi-riverside-nairobi",
+      "sale": {
+        "count": 8,
+        "median": 14600000,
+        "q25": 12700000,
+        "q75": 21000000,
+        "min": 7200000,
+        "max": 28000000
+      },
+      "rent": null,
+      "all": {
+        "count": 10,
+        "median": 13600000
+      }
+    },
+    "riverside-nairobi": {
+      "name": "riverside, nairobi",
+      "slug": "riverside-nairobi",
+      "sale": {
+        "count": 6,
+        "median": 27000000,
+        "q25": 15975000,
+        "q75": 30000000,
+        "min": 12300000,
+        "max": 31000000
+      },
+      "rent": {
+        "count": 14,
+        "median": 200000,
+        "q25": 185000,
+        "q75": 200000,
+        "min": 140000,
+        "max": 300000
+      },
+      "all": {
+        "count": 20,
+        "median": 200000
+      }
+    },
+    "roselyn-nairobi": {
+      "name": "roselyn, nairobi",
+      "slug": "roselyn-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 13,
+        "median": 420000,
+        "q25": 220000,
+        "q75": 450000,
+        "min": 120000,
+        "max": 500000
+      },
+      "all": {
+        "count": 13,
+        "median": 420000
+      }
+    },
+    "runda-kitisuru-runda-nairobi": {
+      "name": "runda kitisuru, runda, nairobi",
+      "slug": "runda-kitisuru-runda-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 16,
+        "median": 442000,
+        "q25": 377500,
+        "q75": 462500,
+        "min": 370000,
+        "max": 516000
+      },
+      "all": {
+        "count": 17,
+        "median": 450000
+      }
+    },
+    "runda-nairobi": {
+      "name": "runda, nairobi",
+      "slug": "runda-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 55,
+        "median": 370000,
+        "q25": 300000,
+        "q75": 500000,
+        "min": 140000,
+        "max": 1200000
+      },
+      "all": {
+        "count": 55,
+        "median": 370000
+      }
+    },
+    "spring-valley-nairobi": {
+      "name": "spring valley, nairobi",
+      "slug": "spring-valley-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 15,
+        "median": 330000,
+        "q25": 250000,
+        "q75": 425000,
+        "min": 250000,
+        "max": 640000
+      },
+      "all": {
+        "count": 15,
+        "median": 330000
+      }
+    },
+    "westlands-nairobi": {
+      "name": "westlands, nairobi",
+      "slug": "westlands-nairobi",
+      "sale": {
+        "count": 26,
+        "median": 20000000,
+        "q25": 6750000,
+        "q75": 27000000,
+        "min": 230000,
+        "max": 36300000
+      },
+      "rent": {
+        "count": 63,
+        "median": 200000,
+        "q25": 150000,
+        "q75": 260000,
+        "min": 85000,
+        "max": 550000
+      },
+      "all": {
+        "count": 89,
+        "median": 250000
+      }
+    },
+    "westlands-rd-nairobi-westlands-nairobi": {
+      "name": "westlands rd nairobi, westlands, nairobi",
+      "slug": "westlands-rd-nairobi-westlands-nairobi",
+      "sale": {
+        "count": 5,
+        "median": 7000000,
+        "q25": 7000000,
+        "q75": 7000000,
+        "min": 7000000,
+        "max": 7000000
+      },
+      "rent": null,
+      "all": {
+        "count": 5,
+        "median": 7000000
+      }
+    },
+    "westlands-westlands-nairobi": {
+      "name": "westlands, westlands, nairobi",
+      "slug": "westlands-westlands-nairobi",
+      "sale": {
+        "count": 17,
+        "median": 24610000,
+        "q25": 8800000,
+        "q75": 27500000,
+        "min": 5880000,
+        "max": 35000000
+      },
+      "rent": null,
+      "all": {
+        "count": 18,
+        "median": 18605000
+      }
+    },
+    "windy-ridge-karen-karen-nairobi": {
+      "name": "windy ridge karen, karen, nairobi",
+      "slug": "windy-ridge-karen-karen-nairobi",
+      "sale": null,
+      "rent": {
+        "count": 5,
+        "median": 270000,
+        "q25": 270000,
+        "q75": 350000,
+        "min": 180000,
+        "max": 350000
+      },
+      "all": {
+        "count": 5,
+        "median": 270000
+      }
+    }
+  },
+  "bedroom_median_price": {
+    "1": 6500000,
+    "2": 7149999,
+    "3": 4500000,
+    "4": 450000,
+    "5": 450000,
+    "6": 350000,
+    "7": 499999
+  },
+  "bedroom_distribution": {
+    "1": {
+      "count": 136,
+      "median_sale": 6800000,
+      "median_rent": 120000
+    },
+    "2": {
+      "count": 216,
+      "median_sale": 12150000,
+      "median_rent": 150000
+    },
+    "3": {
+      "count": 276,
+      "median_sale": 19500000,
+      "median_rent": 200000
+    },
+    "4": {
+      "count": 231,
+      "median_sale": 25250000,
+      "median_rent": 330000
+    },
+    "5": {
+      "count": 130,
+      "median_sale": 33500000,
+      "median_rent": 430000
+    },
+    "6": {
+      "count": 26,
+      "median_sale": 19500000,
+      "median_rent": 400000
+    },
+    "7": {
+      "count": 8,
+      "median_sale": null,
+      "median_rent": 500000
+    }
+  },
+  "global_stats": {
+    "total_listings": 1023,
+    "total_sale": 434,
+    "total_rent": 589,
+    "median_sale_price": 13000000,
+    "median_rent_price": 260000,
+    "avg_bedrooms": 3.1,
+    "price_range": {
+      "sale_min": 230000,
+      "sale_max": 38000000,
+      "rent_min": 12000,
+      "rent_max": 34000000
+    }
+  },
+  "price_tiers": {
+    "sale": {
+      "under_5m": 20,
+      "5m_to_15m": 225,
+      "15m_to_30m": 152,
+      "above_30m": 37
+    },
+    "rent": {
+      "under_50k": 6,
+      "50k_to_150k": 101,
+      "150k_to_300k": 221,
+      "above_300k": 261
+    }
+  },
+  "top_lists": {
+    "affordable_sale": [
+      {
+        "slug": "lower-kabete-nairobi",
+        "name": "lower kabete, nairobi",
+        "median": 4200000
+      },
+      {
+        "slug": "lower-kabete-lower-kabete-nairobi",
+        "name": "lower kabete, lower kabete, nairobi",
+        "median": 4310000
+      },
+      {
+        "slug": "lower-kabete-nairobi-lower-kabete-nairobi",
+        "name": "lower kabete nairobi, lower kabete, nairobi",
+        "median": 4720000
+      },
+      {
+        "slug": "kilimani-kilimani-nairobi",
+        "name": "kilimani, kilimani, nairobi",
+        "median": 6000000
+      },
+      {
+        "slug": "mogotio-rd-23-westlands-nairobi",
+        "name": "mogotio rd 23, westlands, nairobi",
+        "median": 6800000
+      },
+      {
+        "slug": "westlands-rd-nairobi-westlands-nairobi",
+        "name": "westlands rd nairobi, westlands, nairobi",
+        "median": 7000000
+      },
+      {
+        "slug": "kasarani-nairobi",
+        "name": "kasarani, nairobi",
+        "median": 7100000
+      },
+      {
+        "slug": "kileleshwa-nairobi-kileleshwa-nairobi",
+        "name": "kileleshwa nairobi, kileleshwa, nairobi",
+        "median": 7150000
+      },
+      {
+        "slug": "ring-road-kileleshwa-nairobi-kileleshwa-nairobi",
+        "name": "ring road kileleshwa nairobi, kileleshwa, nairobi",
+        "median": 7150000
+      },
+      {
+        "slug": "kiserian-nairobi",
+        "name": "kiserian, nairobi",
+        "median": 7500000
+      }
+    ],
+    "expensive_sale": [
+      {
+        "slug": "ongata-rongai-nairobi",
+        "name": "ongata rongai, nairobi",
+        "median": 38000000
+      },
+      {
+        "slug": "kiambu-rd-kiambu-runda-nairobi",
+        "name": "kiambu rd kiambu, runda, nairobi",
+        "median": 35000000
+      },
+      {
+        "slug": "runda-kitisuru-runda-nairobi",
+        "name": "runda kitisuru, runda, nairobi",
+        "median": 35000000
+      },
+      {
+        "slug": "njathaini-rd-ke-runda-nairobi",
+        "name": "njathaini rd ke, runda, nairobi",
+        "median": 35000000
+      },
+      {
+        "slug": "njathaini-rd-ke-kiambu-road-nairobi",
+        "name": "njathaini rd ke, kiambu road, nairobi",
+        "median": 35000000
+      },
+      {
+        "slug": "zimmerman-mirema-nairobi",
+        "name": "zimmerman, mirema, nairobi",
+        "median": 35000000
+      },
+      {
+        "slug": "lavington-kileleshwa-lavington-nairobi",
+        "name": "lavington kileleshwa, lavington, nairobi",
+        "median": 30000000
+      },
+      {
+        "slug": "kiambu-road-nairobi",
+        "name": "kiambu road, nairobi",
+        "median": 30000000
+      },
+      {
+        "slug": "south-c-nairobi",
+        "name": "south c, nairobi",
+        "median": 29000000
+      },
+      {
+        "slug": "pq2gqh-kilimani-kilimani-nairobi",
+        "name": "pq2g+qh kilimani, kilimani, nairobi",
+        "median": 28000000
+      }
+    ],
+    "affordable_rent": [
+      {
+        "slug": "comboni-cl-nairobi-karen-nairobi",
+        "name": "comboni cl nairobi, karen, nairobi",
+        "median": 45000
+      },
+      {
+        "slug": "ngong-rd-karen-karen-nairobi",
+        "name": "ngong rd karen, karen, nairobi",
+        "median": 45000
+      },
+      {
+        "slug": "kindaruma-rd-kilimani-kilimani-nairobi",
+        "name": "kindaruma rd kilimani, kilimani, nairobi",
+        "median": 55000
+      },
+      {
+        "slug": "argwings-kodhek-rd-kilimani-kilimani-nairobi",
+        "name": "argwings kodhek rd kilimani, kilimani, nairobi",
+        "median": 55000
+      },
+      {
+        "slug": "marula-ln-nairobi-karen-nairobi",
+        "name": "marula ln nairobi, karen, nairobi",
+        "median": 65000
+      },
+      {
+        "slug": "sarit-centre-car-park-lower-kabete-rd-westlands-nairobi",
+        "name": "sarit centre car park lower kabete rd, westlands, nairobi",
+        "median": 70000
+      },
+      {
+        "slug": "marist-ln-nairobi-karen-nairobi",
+        "name": "marist ln nairobi, karen, nairobi",
+        "median": 80000
+      },
+      {
+        "slug": "kilimani-nairobi-kilimani-nairobi",
+        "name": "kilimani nairobi, kilimani, nairobi",
+        "median": 90000
+      },
+      {
+        "slug": "oloitoktok-rd-nairobi-kileleshwa-nairobi",
+        "name": "oloitoktok rd nairobi, kileleshwa, nairobi",
+        "median": 90000
+      },
+      {
+        "slug": "three-d-ln-karen-karen-nairobi",
+        "name": "three d ln karen, karen, nairobi",
+        "median": 100000
+      }
+    ],
+    "expensive_rent": [
+      {
+        "slug": "kileleshwa-nairobi-kileleshwa-nairobi",
+        "name": "kileleshwa nairobi, kileleshwa, nairobi",
+        "median": 2680000
+      },
+      {
+        "slug": "gigiri-kitisuru-gigiri-nairobi",
+        "name": "gigiri kitisuru, gigiri, nairobi",
+        "median": 775000
+      },
+      {
+        "slug": "lower-kabete-nairobi",
+        "name": "lower kabete, nairobi",
+        "median": 650000
+      },
+      {
+        "slug": "lower-kabete-nairobi-lower-kabete-nairobi",
+        "name": "lower kabete nairobi, lower kabete, nairobi",
+        "median": 612000
+      },
+      {
+        "slug": "thigiri-ridge-rd-nairobi-thigiri-nairobi",
+        "name": "thigiri ridge rd nairobi, thigiri, nairobi",
+        "median": 612000
+      },
+      {
+        "slug": "muthaiga-nairobi",
+        "name": "muthaiga, nairobi",
+        "median": 580000
+      },
+      {
+        "slug": "karen-plains-rd-nairobi-karen-nairobi",
+        "name": "karen plains rd nairobi, karen, nairobi",
+        "median": 550000
+      },
+      {
+        "slug": "nandi-rd-karen-karen-nairobi",
+        "name": "nandi rd karen, karen, nairobi",
+        "median": 550000
+      },
+      {
+        "slug": "loresho-nairobi",
+        "name": "loresho, nairobi",
+        "median": 549000
+      },
+      {
+        "slug": "spring-valley-nairobi-spring-valley-nairobi",
+        "name": "spring valley nairobi, spring valley, nairobi",
+        "median": 515000
+      }
+    ]
+  }
+}
